@@ -1,2 +1,2 @@
 # ImageProcessing
-Script to process scanned letters
+Script to process scanned alphabet
