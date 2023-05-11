@@ -77,7 +77,7 @@ for(i in 1:200){
     
     # remove " "
     str = gsub(" ", "", paste(str, ".png"))
-
+    
     # iterate letters in image
     target_img <- imsub(img, x %inr% c(x1, x2), y %inr% c(y1, y2))
     # crop borders (optional)
@@ -101,5 +101,5 @@ for(i in 1:200){
   x2 = spanX
   y1 = y1 + spanY
   y2 = y2 + spanY
-
+  
 }
